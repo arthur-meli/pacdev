@@ -27,8 +27,8 @@ testes/
     test_app.py
         mymodule/
             __init__.py
-            test_additions.py
-            test_funcs.py
+            testes_adicionais.py
+            testes_funcionais.py
 ```
 
 ## Contact
