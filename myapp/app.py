@@ -1,9 +1,9 @@
 from myapp.mymodule.funcs import multiply, divide
 
 
-def multiply_by_two(x):
+def multiplica_por_dois(x):
     return multiply(x, 2)
 
 
-def divide_by_two(x):
+def divide_por_dois(x):
     return divide(x, 2)

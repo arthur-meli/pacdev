@@ -1,6 +1,6 @@
 import pytest
 
-from myapp.app import multiply_by_two, divide_by_two
+from myapp.app import multiplica_por_dois, divide_por_dois
 
 
 @pytest.fixture
@@ -12,9 +12,9 @@ def numbers():
 
 class TestApp:
     def test_multiplication(self, numbers):
-        res = multiply_by_two(numbers[0])
+        res = multiplica_por_dois(numbers[0])
         assert res == numbers[1]
 
     def test_division(self, numbers):
-        res = divide_by_two(numbers[1])
+        res = divide_por_dois(numbers[1])
         assert res == numbers[0]

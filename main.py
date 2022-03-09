@@ -1,12 +1,10 @@
 import sys
 
-from myapp.app import multiply_by_two, divide_by_two
+from myapp.app import multiplica_por_dois, divide_por_dois
 
 
 def main():
-    num = int(input("Insert a number: "))
-    print("The double of %d is %d" % (num, multiply_by_two(num)))
-    print("The half of %d is %d" % (num, divide_by_two(num)))
+    print("Está funcionando")
     sys.exit(0)
 
 

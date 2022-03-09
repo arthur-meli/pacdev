@@ -1,15 +1,17 @@
 # pytest-example
-pytest - Python Testing Example
+pytest - Python PACDEV EXAMPLE
 
-This is a simple example of how to use pytest to integreate testing in your Python application.
+Este é um código simples da estrutura do PACDEV para operar testes usando pytest
+
 
 
 ## Usage
-This example comes with several test files (e.g. test_app.py, test_funcs.py, etc.).
+
+Este código já tem alguns testes implementados sendo testes próprios e um de exemplo para o usuario
+
 
 
 ![Pytest Output](https://github.com/ptracesecurity/pytest-example/blob/media/pytest_output.png)
-
 
 
 ## Code Structure
@@ -20,7 +22,7 @@ myapp/
     mymodule/
         __init__.py
         funcs.py
-tests/
+testes/
     __init__.py
     test_app.py
         mymodule/
@@ -31,6 +33,4 @@ tests/
 
 ## Contact
 
-Author: Gianni Gnesa (gnix) (@GianniGnesa)[https://twitter.com/giannignesa]
-
-For any question about this code, feel free to ask in the (PSEC Facebook Group))[https://www.facebook.com/groups/psec.community].
+Author: Arthur Guedes de Souza (@Arthur.Ghz)
