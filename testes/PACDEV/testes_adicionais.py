@@ -1,6 +1,6 @@
 import pytest
 
-from myapp.mymodule.funcs import add
+from myapp.mymodule.funcoes import add
 
 
 @pytest.mark.parametrize("a, b, c", [(10,20, 30), (20,40,60), (11,22,33)])

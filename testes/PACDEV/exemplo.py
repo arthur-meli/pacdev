@@ -1,6 +1,6 @@
 import pytest
 
-from myapp.mymodule.funcs import *
+from myapp.mymodule.funcoes import *
 
 
 @pytest.mark.easy_operation
