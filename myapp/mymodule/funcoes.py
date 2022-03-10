@@ -1,6 +1,4 @@
-"""
-funcs.py contains four math functions.
-"""
+
 
 
 def add(a, b):

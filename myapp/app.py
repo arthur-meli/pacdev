@@ -1,4 +1,4 @@
-from myapp.mymodule.funcs import multiply, divide
+from myapp.mymodule.funcoes import multiply, divide
 
 
 def multiplica_por_dois(x):
